@@ -1,0 +1,82 @@
+.contact {
+  padding: 40px;
+  background-color: #dce4f0; /* Light navy blue */
+  text-align: center;
+  border: 10px solid white; /* White border for consistency */
+  border-radius: 10px; /* Smooth corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.contact h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: 'Lora', serif; /* Consistent font */
+  color: #001f3d; /* Deep navy blue text */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Gentle shadow for elegance */
+}
+
+.contact-details {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: 'Lora', serif; /* Consistent typography */
+  color: #001f3d; /* Navy blue text */
+}
+
+.contact-details p {
+  margin: 10px 0;
+  color: #001f3d; /* Consistent text color */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Better spacing between form elements */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 450px;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid white; /* White border to match the theme */
+  border-radius: 8px; /* Smooth edges */
+  background-color: #f9f9f9; /* Light neutral background */
+  color: #001f3d; /* Navy blue text */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #001f3d; /* Navy blue border on focus */
+  box-shadow: 0 0 8px rgba(0, 31, 61, 0.5); /* Subtle glow effect */
+}
+
+.contact-form button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #001f3d; /* Navy blue button */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+  background-color: #003366; /* Slightly brighter navy blue */
+  transform: scale(1.05); /* Subtle scaling effect */
+}
+
+.contact-footer {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #001f3d; /* Consistent navy blue */
+  border-top: 2px solid white; /* White border at the top */
+  padding-top: 10px;
+  font-family: 'Lora', serif; /* Consistent typography */
+}
+
+  

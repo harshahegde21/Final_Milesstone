@@ -1,0 +1,61 @@
+.reservations {
+  padding: 40px;
+  background-color: #dce4f0; /* Light navy blue background */
+  text-align: center;
+  border: 10px solid white; /* White border for consistency */
+  border-radius: 10px; /* Smooth corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.reservations h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: 'Lora', serif; /* Consistent font */
+  color: #001f3d; /* Deep navy blue text */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Gentle shadow for elegance */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Better spacing between form elements */
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  max-width: 450px;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid white; /* Matching border with container */
+  border-radius: 8px; /* Rounded inputs */
+  background-color: #f9f9f9; /* Light neutral background */
+  color: #001f3d; /* Deep navy blue text for readability */
+}
+
+form input:focus,
+form select:focus {
+  outline: none;
+  border-color: #001f3d; /* Navy blue border on focus */
+  box-shadow: 0 0 8px rgba(0, 31, 61, 0.5); /* Subtle glow effect */
+}
+
+form button {
+  background-color: #001f3d; /* Deep navy blue */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #003366; /* Slightly brighter navy blue */
+  transform: scale(1.05); /* Gentle hover effect */
+}
+
+  
